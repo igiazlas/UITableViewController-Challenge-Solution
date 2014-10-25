@@ -163,6 +163,7 @@
 		BFC6E11319FBF3A100BBDEBF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JG;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "John Giazlas";
 				TargetAttributes = {
@@ -344,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "UITableViewController Challenge Solution/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "UITableViewController Challenge Solution/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
