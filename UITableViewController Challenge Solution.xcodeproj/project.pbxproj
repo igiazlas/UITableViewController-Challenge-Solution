@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF5AD28919FC2A2300D81449 /* JGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5AD28819FC2A2300D81449 /* JGTableViewController.m */; };
 		BFC6E12119FBF3A200BBDEBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC6E12019FBF3A200BBDEBF /* main.m */; };
 		BFC6E12419FBF3A200BBDEBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC6E12319FBF3A200BBDEBF /* AppDelegate.m */; };
-		BFC6E12719FBF3A200BBDEBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC6E12619FBF3A200BBDEBF /* ViewController.m */; };
 		BFC6E12A19FBF3A200BBDEBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC6E12819FBF3A200BBDEBF /* Main.storyboard */; };
 		BFC6E12C19FBF3A200BBDEBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC6E12B19FBF3A200BBDEBF /* Images.xcassets */; };
 		BFC6E12F19FBF3A200BBDEBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFC6E12D19FBF3A200BBDEBF /* LaunchScreen.xib */; };
@@ -27,13 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF5AD28719FC2A2300D81449 /* JGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGTableViewController.h; sourceTree = "<group>"; };
+		BF5AD28819FC2A2300D81449 /* JGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGTableViewController.m; sourceTree = "<group>"; };
 		BFC6E11B19FBF3A200BBDEBF /* UITableViewController Challenge Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableViewController Challenge Solution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC6E11F19FBF3A200BBDEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFC6E12019FBF3A200BBDEBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFC6E12219FBF3A200BBDEBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFC6E12319FBF3A200BBDEBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BFC6E12519FBF3A200BBDEBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BFC6E12619FBF3A200BBDEBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BFC6E12919FBF3A200BBDEBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFC6E12B19FBF3A200BBDEBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BFC6E12E19FBF3A200BBDEBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,9 +83,9 @@
 			children = (
 				BFC6E12219FBF3A200BBDEBF /* AppDelegate.h */,
 				BFC6E12319FBF3A200BBDEBF /* AppDelegate.m */,
-				BFC6E12519FBF3A200BBDEBF /* ViewController.h */,
-				BFC6E12619FBF3A200BBDEBF /* ViewController.m */,
 				BFC6E12819FBF3A200BBDEBF /* Main.storyboard */,
+				BF5AD28719FC2A2300D81449 /* JGTableViewController.h */,
+				BF5AD28819FC2A2300D81449 /* JGTableViewController.m */,
 				BFC6E12B19FBF3A200BBDEBF /* Images.xcassets */,
 				BFC6E12D19FBF3A200BBDEBF /* LaunchScreen.xib */,
 				BFC6E11E19FBF3A200BBDEBF /* Supporting Files */,
@@ -220,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFC6E12719FBF3A200BBDEBF /* ViewController.m in Sources */,
+				BF5AD28919FC2A2300D81449 /* JGTableViewController.m in Sources */,
 				BFC6E12419FBF3A200BBDEBF /* AppDelegate.m in Sources */,
 				BFC6E12119FBF3A200BBDEBF /* main.m in Sources */,
 			);
@@ -415,6 +415,7 @@
 				BFC6E14019FBF3A200BBDEBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFC6E14119FBF3A200BBDEBF /* Build configuration list for PBXNativeTarget "UITableViewController Challenge SolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +424,7 @@
 				BFC6E14319FBF3A200BBDEBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
